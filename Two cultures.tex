@@ -1,0 +1,67 @@
+\documentclass[a4paper,11pt]{article}
+
+\setlength{\oddsidemargin}{0 in}
+\setlength{\evensidemargin}{0 in}
+\setlength{\topmargin}{-0.6 in}
+\setlength{\textwidth}{6.5 in}
+\setlength{\textheight}{8.5 in}
+\setlength{\headsep}{0.75 in}
+\setlength{\parindent}{0 in}
+\setlength{\parskip}{0.1 in}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{tikz-cd}
+\usepackage{mathrsfs}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{enumitem}
+\usepackage{yfonts}
+\usepackage{ dsfont }
+\usepackage{soul}
+\usepackage{tabularx}
+\usepackage{setspace}
+
+
+\author{Jiaqi Bi, University of Toronto}
+
+\begin{document}
+
+\title{\textbf{Notes on Statistical Modeling: The Two Cultures by Leo Breiman}}
+\maketitle
+
+
+
+\setstretch{1.1}
+
+\section{General Ideas}
+
+The article argues about two cultures of data analysis: 
+\begin{enumerate}
+\item The Data Modeling Culture
+\item The Algorithm Modeling Culture
+\end{enumerate}
+The data modeling culture generates responses from predictors using specific functions, such as linear regression, logistic regression. The algorithmic modeling culture has machine learning techniques, that the response variables can be predicted by using algorithms by using decision trees and neural networks. 
+The author deems that data modeling has some imperfections: 
+\begin{itemize}
+\item Focusing on data modeling could lead to irrelevant theory and questionable scientific conclusions
+\item Focusing only on data modeling could lead researchers not to use better algorithmic models
+\item Focusing only on data modeling could prevent statisticians from working on new problems.
+\end{itemize}
+
+\section{Example of The Ozone Project}
+During the time that the author worked for the government that he needed to set up the alert for ozone levels. By using 450 meteorological variables for a period of 7 years, and generating linear regressions as well as using first five years as training data sets and last two years as testing sets, the author found the project was a failure since the false alarm rate of the final predictor was too high. 
+
+
+
+
+
+
+
+
+
+
+\end{document}
